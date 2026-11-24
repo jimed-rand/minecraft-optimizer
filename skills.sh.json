@@ -1,0 +1,41 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Orchestrator",
+      "description": "Full diagnostic and optimization workflow coordinating all Minecraft optimization sub-skills.",
+      "skills": [
+        "minecraft-optimizer"
+      ]
+    },
+    {
+      "title": "Diagnostics",
+      "description": "Profile host CPU/RAM/swap/iGPU limits, analyze boot log stalls, and audit mod dependency graphs.",
+      "skills": [
+        "mc-hardware-profiler",
+        "mc-boot-analyzer",
+        "mc-mod-auditor"
+      ]
+    },
+    {
+      "title": "Performance Tuning",
+      "description": "Downscale oversized textures, fix G1GC swap thrashing, and swap heavy UI font mods for native TTF packs.",
+      "skills": [
+        "mc-texture-downscaler",
+        "mc-jvm-and-config-tuner",
+        "mc-system-font-changer"
+      ]
+    },
+    {
+      "title": "Maintenance & Fixes",
+      "description": "Repair broken gunpack configs, clean corrupted saves and old backups, and update TaCZ gunpacks via CurseForge.",
+      "skills": [
+        "mc-missing-content-fixer",
+        "mc-corrupted-saves-cleaner",
+        "mc-instance-cleaner",
+        "mc-tacz-curseforge-updater"
+      ]
+    }
+  ]
+}
